@@ -1,0 +1,303 @@
+/* Header */
+
+/* 974 */
+
+@media (max-width: 974px) {
+    .header__welcome-text {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .header__welcome-title {
+        font-size: 60px;
+        line-height: 79px;
+    }
+
+    .header__welcome-home {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+/* 860 */
+
+@media (max-width: 860px) {
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__nav-tel {
+        display: none;
+    }
+
+    .header__nav-order {
+        display: none;
+    }
+}
+
+/* 729 */
+
+@media (max-width: 729px) {
+    .header__welcome {
+        max-width: none;
+    }
+}
+
+/* 424 */
+
+@media (max-width: 424px) {
+    .header__welcome-text {
+        font-size: 33px;
+        line-height: 26px;
+    }
+
+    .header__welcome-home::before,
+    .header__welcome-home::after {
+        display: none;
+    }
+
+    .header__welcome-title {
+        font-size: 47px;
+        line-height: 79px;
+    }
+
+    .header__nav-logo {
+        width: 90px;
+    }
+}
+
+/* Main */
+
+/* 1130 */
+
+@media (max-width: 1130px) {
+    .dnone {
+        display: none;
+    }
+
+    .main__max-content {
+        justify-content: center;
+    }
+
+    .main__max-title {
+        margin-bottom: 60px;
+    }
+}
+
+/* 1105 */
+
+@media (max-width: 1106px) {
+    .main__mini-span {
+        display: none;
+    }
+
+    .main__mini-content {
+        justify-content: space-evenly;
+    }
+}
+
+/* 1094 */
+
+@media (max-width: 1094px) {
+    .main__food {
+        padding: 0 15px;
+    }
+
+    .main__history {
+        padding: 0 15px;
+        padding-bottom: 80px;
+    }
+}
+
+/* 1079 */
+
+@media (max-width: 1079px) {
+    .main__food {
+        justify-content: space-evenly;
+    }
+
+    .main__food .main__food-block:nth-of-type(3) {
+        margin-top: 15px;
+    }
+}
+
+/* 1045 */
+
+@media (max-width: 1045px) {
+    .main__info-content {
+        justify-content: space-evenly;
+    }
+
+    .main__info-content .main__info-img:nth-of-type(3) {
+        margin-top: 15px;
+    }
+}
+
+/* 1044 */
+
+@media (max-width: 1044px) {
+    .main__history {
+        justify-content: center;
+    }
+
+    .main__history-img {
+        margin-top: 45px;
+    }
+
+    .main__history-img {
+        margin-left: 0;
+    }
+}
+
+/* 890 */
+
+@media (max-width: 890px) {
+    .main__mini-price {
+        margin-left: 38px;
+    }
+
+    .main__mini-menu {
+        margin-top: 30px;
+    }
+}
+
+/* 876 */
+
+@media (max-width: 867px) {
+    .main__pizza-title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .main__pizza-discount {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+/* 792 */
+
+@media (max-width: 792px) {
+    .main__info-img {
+        margin-top: 15px;
+    }
+}
+
+/* 729 */
+
+@media (max-width: 729px) {
+    .main__food .main__food-block:nth-of-type(2) {
+        margin-top: 15px;
+    }
+
+    .main__food {
+        margin-bottom: 70px;
+    }
+
+    .main__pizza-inblock {
+        flex-direction: column;
+        padding: 0 20px;
+        justify-content: space-evenly;
+    }
+
+    .main__pizza-title,
+    .main__pizza-discount {
+        text-align: center;
+    }
+}
+
+/* 605 */
+
+@media (max-width: 605px) {
+    .main__history-img {
+        width: 100%;
+    }
+
+    .main__pizza-title {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .main__pizza-discount {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .main__info-content {
+        padding: 0 15px;
+    }
+
+    .width {
+        width: 100%;
+    }
+}
+
+/* 449 */
+
+@media (max-width: 449px) {
+    .main__food-title {
+        margin-bottom: 10px;
+    }
+
+    .main__food-text {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .main__mini-pizza {
+        width: 100%;
+    }
+
+    .main__mini-box {
+        padding: 0 15px;
+    }
+
+    .main__mini-title {
+        line-height: 44px;
+        font-size: 44px;
+        margin: 0 auto 140px;
+        width: 170px;
+    }
+
+    .main__max-menu {
+        padding: 80px 35px 30px;
+    }
+
+    .main__mini {
+        padding: 100px 0;
+    }
+
+    .main__review {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .main__info-title {
+        font-size: 40px;
+        line-height: 46px;
+        width: 140px;
+    }
+}
+
+/* 375 */
+
+@media (max-width: 375px) {
+    .main__history-title {
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    .main__mini-price {
+        font-size: 19px;
+    }
+}
+
+/* 320 */
+
+@media (max-width: 320px) {
+    .main__food-title {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,97 @@
+/* Tinos */
+
+@font-face {
+    font-family: 'Tinos-Regular';
+    src: url('../fonts/fontTinos/Tinos-Regular.ttf');
+}
+
+/* Open Sans */
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/fontOpenSans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url('../fonts/fontOpenSans/OpenSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/fontOpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../fonts/fontOpenSans/OpenSans-SemiBold.ttf');
+}
+
+/* Cookie */
+
+@font-face {
+    font-family: 'Cookie-Regular';
+    src: url('../fonts/fontCookie/Cookie-Regular.ttf');
+}
+
+/* Font Awesome */
+
+@font-face {
+    font-family: 'fontAwesome-brands';
+    src: url('../fonts/fontAwesome/fa-brands-400.woff2');
+}
+
+@font-face {
+    font-family: 'fontAwesome-duotone';
+    src: url('../fonts/fontAwesome/fa-duotone-900.woff2');
+}
+
+@font-face {
+    font-family: 'fontAwesome-light';
+    src: url('../fonts/fontAwesome/fa-light-300.woff2');
+}
+
+@font-face {
+    font-family: 'fontAwesome-regular';
+    src: url('../fonts/fontAwesome/fa-regular-400.woff2');
+}
+
+@font-face {
+    font-family: 'fontAWesome-solid';
+    src: url('../fonts/fontAwesome/fa-solid-900.woff2');
+}
+
+/* Font Awesome CSS */
+
+.fab {
+    font-family: 'fontAwesome-brands';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fad {
+    font-family: 'fontAwesome-duotone';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.fal {
+    font-family: 'fontAwesome-light';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.fa {
+    font-family: 'fontAWesome-regular';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fas {
+    font-family: 'fontAwesome-solid';
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+
