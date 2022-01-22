@@ -23,16 +23,52 @@
 
 @media (max-width: 860px) {
     .header__nav-list {
-        display: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .header__nav-tel {
+        margin-left: 0;
+    }
+
+    .header__nav-box {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        padding: 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: flex-start;
+        padding-top: 35px;
+    }
+
+    .header__nav-btn::before {
+        display: inline-block;
+    }
+
+    .header__nav-span {
         display: none;
     }
 
-    .header__nav-order {
+    .header__nav-text {
         display: none;
     }
+
+    .header__nav-icon::before {
+        margin-right: 26px;
+        margin-bottom: 25px;
+    }
+
+    .header__nav-link {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+
 }
 
 /* 729 */

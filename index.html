@@ -19,39 +19,42 @@
                 <a href="">
                     <img src="images/LOGO.png" alt="" class="header__nav-logo">
                 </a>
-                <div class="header__nav-box">
-                    <ul class="header__nav-list">
-                        <li>
-                            <a href="" class="header__nav-link">ГЛАВНАЯ</a>
-                        </li>
-                        <li>
-                            <a href="" class="header__nav-link">МЕНЮ</a>
-                        </li>
-                        <li>
-                            <a href="" class="header__nav-link">О НАС</a>
-                        </li>
-                        <li>
-                            <a href="" class="header__nav-link">БРОНЬ</a>
-                        </li>
-                        <li>
-                            <a href=""><span class="fal header__nav-icon"></span></a>
-                        </li>
-                        <span class="header__nav-span"></span>
-                    </ul>
-                    <div class="header__nav-tel">
-                        <a href="tel:+9998887654" class="header__nav-link tel"><span
-                                class="header__nav-phone fal"></span>+999-888-76-54</a>
-                        <p class="header__nav-text">Свяжитесь с нами для
-                            бронирования</p>
+                <div>
+                    <div class="header__nav-box">
+                        <ul class="header__nav-list">
+                            <li>
+                                <a href="" class="header__nav-link">ГЛАВНАЯ</a>
+                            </li>
+                            <li>
+                                <a href="#food" class="header__nav-link anchor">МЕНЮ</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="header__nav-link anchor">О НАС</a>
+                            </li>
+                            <li>
+                                <a href="" class="header__nav-link">БРОНЬ</a>
+                            </li>
+                            <li>
+                                <a href=""><span class="fal header__nav-icon"></span></a>
+                            </li>
+                            <span class="header__nav-span"></span>
+                        </ul>
+                        <div class="header__nav-tel">
+                            <a href="tel:+9998887654" class="header__nav-link tel"><span
+                                    class="header__nav-phone fal"></span>+999-888-76-54</a>
+                            <p class="header__nav-text">Свяжитесь с нами для
+                                бронирования</p>
+                        </div>
+                        <a href="" class="header__nav-order">ЗАКАЗ СТОЛИКА</a>
                     </div>
-                    <a href="" class="header__nav-order">ЗАКАЗ СТОЛИКА</a>
+                    <button class="fas header__nav-btn"></button>
                 </div>
             </nav>
             <div class="header__welcome">
                 <h2 class="header__welcome-text">Добро пожаловать в</h2>
                 <h1 class="header__welcome-title">Наш ресторан</h1>
                 <h3 class="header__welcome-home">ДОМ ЛУЧШЕЙ ЕДЫ</h3>
-                <a href="" class="header__welcome-link">VIEW MENU</a>
+                <a href="#food" class="header__welcome-link">МЕНЮ</a>
             </div>
         </div>
     </header>
@@ -116,13 +119,13 @@
                                 самых лучших ресторанов.</h2>
                             <p class="main__pizza-discount">Только в этом месяце бизнес-ланч от 250 ₽</p>
                         </div>
-                        <a href="" class="main__pizza-order">ЗАКАЗ СТОЛИКА</a>
+                        <a href="" class="header__nav-order">ЗАКАЗ СТОЛИКА</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="main__mini">
+            <div class="main__mini" id="food">
                 <h3 class="main__mini-title">Наши <span class="main__mini-plate">Блюда</span></h3>
                 <div class="main__mini-content">
                     <img src="images/mainPizza.png" alt="" class="main__mini-pizza">
@@ -150,38 +153,40 @@
             <div class="main__max-block">
                 <div class="container">
                     <h2 class="main__max-title">Наше меню</h2>
-                <div class="main__max-content">
-                    <div class="main__max-menu">
-                        <img src="images/mainMaxBurger.png" alt="" class="main__max-burger">
-                        <h3 class="main__max-name">Гамбургер макси</h3>
-                        <p class="main__max-text">Максимально толстый
-                            слой мяса</p>
-                        <a href="" class="main__max-link">Заказать</a>
-                        <span class="main__max-span">RECOMMENDED</span>
-                        <p class="main__max-price">420</p>
+                    <div class="main__max-content">
+                        <div class="main__max-menu">
+                            <img src="images/mainMaxBurger.png" alt="" class="main__max-burger">
+                            <h3 class="main__max-name">Гамбургер макси</h3>
+                            <p class="main__max-text">Максимально толстый
+                                слой мяса</p>
+                            <a href="" class="main__max-link">Заказать</a>
+                            <span class="main__max-span">RECOMMENDED</span>
+                            <p class="main__max-price">420</p>
+                        </div>
+                        <div class="main__max-menu dnone">
+                            <img src="images/mainMaxBurger.png" alt="" class="main__max-burger">
+                            <h3 class="main__max-name">Гамбургер макси</h3>
+                            <p class="main__max-text">Максимально толстый
+                                слой мяса</p>
+                            <a href="" class="main__max-link">Заказать</a>
+                            <p class="main__max-price">420</p>
+                        </div>
+                        <div class="main__max-menu dnone">
+                            <img src="images/mainMaxBurger.png" alt="" class="main__max-burger">
+                            <h3 class="main__max-name">Гамбургер макси</h3>
+                            <p class="main__max-text">Максимально толстый
+                                слой мяса</p>
+                            <a href="" class="main__max-link">Заказать</a>
+                            <p class="main__max-price">420</p>
+                        </div>
                     </div>
-                    <div class="main__max-menu dnone">
-                        <img src="images/mainMaxBurger.png" alt="" class="main__max-burger">
-                        <h3 class="main__max-name">Гамбургер макси</h3>
-                        <p class="main__max-text">Максимально толстый
-                            слой мяса</p>
-                        <a href="" class="main__max-link">Заказать</a>
-                        <p class="main__max-price">420</p>
-                    </div>
-                    <div class="main__max-menu dnone">
-                        <img src="images/mainMaxBurger.png" alt="" class="main__max-burger">
-                        <h3 class="main__max-name">Гамбургер макси</h3>
-                        <p class="main__max-text">Максимально толстый
-                            слой мяса</p>
-                        <a href="" class="main__max-link">Заказать</a>
-                        <p class="main__max-price">420</p>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
         <div class="main__review">
-            <p class="main__review-text">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+            <p class="main__review-text">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек
+                родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот
+                ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
             <img src="images/mainClient.png" alt="" class="main__review-img">
             <p class="main__review-title">Посетитель</p>
             <p class="main__review-name">Николай</p>
@@ -192,7 +197,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="main__info">
+            <div class="main__info" id="about">
                 <h2 class="main__info-title">Галерея <span class="main__info-span">Блюд</span></h2>
                 <div class="main__info-content">
                     <img src="images/mainWine.png" alt="" class="main__info-img width">
@@ -204,7 +209,7 @@
                     <img src="images/mainCoffee.png" alt="" class="main__info-img">
                     <img src="images/mainSoup.png" alt="" class="main__info-img">
                 </div>
-                <h2 class="main__info-title">Наши  <span class="main__info-span">Повара</span></h2>
+                <h2 class="main__info-title">Наши <span class="main__info-span">Повара</span></h2>
                 <div class="main__info-content">
                     <img src="images/mainCook1.png" alt="" class="main__info-img width">
                     <img src="images/mainCook2.png" alt="" class="main__info-img width">
@@ -217,8 +222,22 @@
             </div>
         </div>
     </main>
-        <!-- footer -->
-        <footer class="footer"></footer>
+    <!-- footer -->
+    <footer class="footer"></footer>
+
+    <!-- Blank -->
+
+    <div class="blank">
+        <h3 class="blank__text">Введите ваше имя</h3>
+        <input type="text" class="blank__input">
+        <h3 class="blank__text">Введите ваше номер</h3>
+        <input type="text" class="blank__input">
+        <a href="" class="blank__link">Отправить</a>
+    </div>
+
+    <!-- linking js -->
+
+    <script src="script/script.js"></script>
 </body>
 
 </html>
